@@ -13,11 +13,36 @@
             Regex Form Validation
         </h1>
 
-        <form action="">
-            <div class="form-control">
-                <input type="number" id="regNo" required />
-                <label for="regNo">Enter Registration Number...</label>
+        <form action="" class="form-container">
+            <div class="block">
+                <div class="form-control">
+                    <input type="text" id="firstName" required />
+                    <label for="firstName">Enter First Name</label>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="middleName" required />
+                    <label for="middleName">Enter Middle Name</label>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="lastName" required />
+                    <label for="lastName">Enter Last Name</label>
+                </div>
             </div>
+
+            <div class="block">
+                <div class="form-control">
+                    <input type="email" id="email" required />
+                    <label for="email">Enter Email</label>
+                </div>
+                <div class="form-control">
+                    <input type="number" id="phNo" required />
+                    <label for="phNo">Enter Phone Number</label>
+                </div>
+            </div>
+            
+           <div class="block">
+               <button class="button" type="submit" class="center-align">Submit</button>
+           </div>
         </form>
     </div>
 
