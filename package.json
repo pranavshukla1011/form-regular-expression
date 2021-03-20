@@ -1,0 +1,24 @@
+{
+  "name": "form-regular-expression",
+  "version": "1.0.0",
+  "description": "user form validation with regular expressions",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass":"node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavshukla1011/form-regular-expression.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranavshukla1011/form-regular-expression/issues"
+  },
+  "homepage": "https://github.com/pranavshukla1011/form-regular-expression#readme"
+}
